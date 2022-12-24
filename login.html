@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>LogIn</title>
+
+<!-- linking the signup.html with the singup.css -->
+
+	<link rel="stylesheet" href="login.css">
+</head>
+<body>
+<!-- the heading of the page -->
+	<a href="index.html">Previous Page</a>
+	<div class="window">
+	<h2>Log-in</h2>
+	</div>
+
+		<form action="loginform.php" method="post">
+			<!--  GET carries request parameter appended in URL string while POST carries request parameter in message body which makes it more secure way of transferring data. -->
+		<!-- the lables for the Name, Email, Phone, TCZ and TS # with the class container -->
+			<div class="container">
+				<label for="name" class="contact">Name</label>
+				<input type="text"placeholder="Enter your Full Name" required name="name">
+				<label for="email" class="contact">Email</label>
+				<input type="text"placeholder="Enter your Email Address e.g john@gmail.com" required name="email">
+				<label for="phone"class="contact">Phone</label>
+				<input type="text"placeholder="097/07/096/095X XXXXXX" name="phone">
+				<label for="tcz" class="contact">TCZ #</label>
+				<input type="text"placeholder="Teaching Council of Zambia" required name="tcz">
+				<label for="ts" class="contact">TS #</label>
+				<input type="text"placeholder="Teaching Service" name="ts">
+
+
+				<label for="login">Log in (date and time):</label>
+  				<input type="datetime-local" id="login" name="login">
+
+  				<br>
+
+
+  				<label>
+  					<input type="checkbox" name="terms">
+  					I agree with the terms and conditions of the Public Service Commission.
+  				</label>
+			</div>
+			
+
+				<!-- submit button here  -->
+
+			<div class="button"> 
+				<p>
+					<input type="submit" class="submit" value="Submit">
+					<input type="reset" class="reset" value="Clear">
+				</p>
+
+			</div>
+		</form>
+
+</body>
+</html>
