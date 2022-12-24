@@ -1,1 +1,1 @@
-# Staff-Management
+# Staff-Management is a web app that is all about staff registration aswell as staff login and log out time. this ensures that staff are monitored regularly from the generated reports. Direct users are the teachers for a school set up and administrators who can then make informed decisions.
